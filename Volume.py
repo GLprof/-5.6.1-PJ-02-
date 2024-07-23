@@ -1,7 +1,7 @@
 import telebot
 import math
 
-# Укажите ваш API-токен Telegram
+
 TOKEN = '7384750969:AAFn1AiwoJ1EE4m9DbXWdFYQINvSKUoOpmM'
 bot = telebot.TeleBot(TOKEN)
 
@@ -24,5 +24,5 @@ def calculate_volume(message):
 
     bot.reply_to(message, response)
 
-# Запустить бота
+
 bot.polling()
